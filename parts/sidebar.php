@@ -44,7 +44,7 @@
 						?>
 					<!--Below is displayed when on a child page -->	
 						<div class="offset-gutter radius-topright" id="sidebar_header">
-							<h5 class="white">Also in <a href="<?php echo $parent_url;?>" class="grey bold"><?php echo $parent_name ?></a></h5>
+							<h5 class="white">Also in <span class="grey bold"><?php echo $parent_name ?></span></h5>
 						</div>
 						<?php
 							wp_nav_menu( array( 
